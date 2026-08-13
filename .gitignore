@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Allow directories
+!*/
+
+# Allow C# source files
+!*.cs
+
+# Allow Markdown
+!*.md
+
+# Allow gitignore
+!.gitignore
