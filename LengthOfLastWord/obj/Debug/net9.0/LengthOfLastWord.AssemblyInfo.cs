@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LengthOfLastWord")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbb56df0fe8aaff88ca8fcb9cb7185d313222a93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d04a0edfff3f186aaf04278fabd52a0736029226")]
 [assembly: System.Reflection.AssemblyProductAttribute("LengthOfLastWord")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LengthOfLastWord")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
