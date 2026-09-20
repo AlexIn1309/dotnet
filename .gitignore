@@ -4,8 +4,9 @@
 # Allow directories
 !*/
 
-# Allow C# source files
+# Allow C# source files y archivos de proyecto
 !*.cs
+!*.csproj
 
 # Allow Markdown
 !*.md
