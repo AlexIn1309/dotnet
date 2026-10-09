@@ -30,19 +30,31 @@
  * - s consists of English letters (lower-case and upper-case), ',' and '.'
  * - 1 <= numRows <= 1000 */
 
+using System;
+using System.Text;
+
 public class Solution {
 	public string Convert(string s, int numRows){
-		string[] arreglo = new string[numRows];
-		int contador = 0;
-		bool engrane = true;
-		foreach(int elemento in s){
-			if(engrane == true)contador++;
-			if(engrane == false)contador--;
-			if(contador == numRows)engrane=false;
-			if(contador == 0)engrane=true;
-			
+		if(numRows == 1 || s.Length <= numRows)return s;
+
+		StringBuilder[] filas = new StringBuilder[numRows];
+		for(int i = 0; i < numRows; i++){
+			filas[i] = new StringBuilder();
 		}
-		return s;
+
+		int actual = 0;
+		bool engrane = false;
+		foreach(char elemento in s){
+			filas[actual].Append(elemento);
+
+			if(actual == 0 || actual == numRows - 1) engrane = !engrane;
+
+			actual += engrane ? 1: -1;
+		}
+		StringBuilder resultado = new StringBuilder();
+	   	foreach(StringBuilder fila in filas) resultado.Append(fila);
+			
+		return resultado.ToString();
 	}
 }
 

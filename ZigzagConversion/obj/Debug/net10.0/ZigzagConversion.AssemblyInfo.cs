@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZigzagConversion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43eb3823fb204776950e54bbb9cdf239b6d49ecf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26190ad86d834989b111254d8a2f0b90bc818855")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZigzagConversion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZigzagConversion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
